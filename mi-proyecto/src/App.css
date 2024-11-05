@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Nuevo estilo para las imágenes de productos */
+.product-image {
+  width: 100%;
+  height: 150px; /* Altura fija */
+  object-fit: cover; /* Ajusta la imagen para que ocupe el espacio sin distorsionarse */
+  border-radius: 8px; /* Bordes redondeados para un aspecto más agradable */
+}
+
+/* Estilos para el formulario de proyecto */
+.container {
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.project-form .form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.project-form input,
+.project-form textarea,
+.project-form select {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.project-form input[type="date"] {
+  background-color: #f1f1f1;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.text-success {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.text-danger {
+  font-weight: bold;
+  color: #dc3545;
+}
